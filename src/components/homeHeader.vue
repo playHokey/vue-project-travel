@@ -1,13 +1,15 @@
 <template>
-  <div class="hello">
+  <div class="header-wrap">
+    <div class="header">
 
+    </div>
 
   </div>
 </template>
 
 <script>
 export default {
-	name: 'HelloWorld',
+	name: 'homeHeader',
 	data() {
 		return {
 			msg: 'Welcome to Your Vue.js App',
@@ -17,5 +19,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+ <style lang="stylus" scoped>
+</style>
+ scoped>
 </style>

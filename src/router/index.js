@@ -27,6 +27,13 @@ export default new Router({
       meta: {
         title: '测试helloWorld页面'
       }
+    }, {
+      name: 'homeHeader',
+      component: () => import('@/components/homeHeader'),
+      path: '/homeheader',
+      meta: {
+        title: 'header页面'
+      }
     }
   ]
 })
